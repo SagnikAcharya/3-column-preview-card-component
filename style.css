@@ -14,7 +14,31 @@ font-family: 'Lexend Deca', sans-serif; */
     padding: 0;
 }
 
+@media(min-width:1441px) {
+
+    .container {
+        display: none;
+    }
+
+    .hidden {
+        width: 80%;
+        height: 70%;
+        margin: auto;
+    }
+
+    .hidden p {
+        color: var(--Brightorange);
+        font-size: 5rem;
+        font-family: 'Lexend Deca', sans-serif;
+    }
+}
+
+
 @media(max-width:1440px) {
+    .hidden {
+        display: none;
+    }
+
     body {
         background-color: var(--nearAboutWhite);
         width: 100vw;
@@ -117,6 +141,10 @@ font-family: 'Lexend Deca', sans-serif; */
 }
 
 @media(max-width:375px) {
+    .hidden {
+        display: none;
+    }
+
     body {
         height: 98vh;
     }
