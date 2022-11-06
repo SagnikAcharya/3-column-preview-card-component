@@ -116,7 +116,7 @@ body {
 
 @media(max-width:375px) {
     body {
-        /* height: 168vh; */
+        height: 98vh;
     }
 
     .container {
